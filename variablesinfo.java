@@ -1,6 +1,7 @@
 package invictus;
 
  class studentdetails {
+	 
 	int id;
 	float marks;
 	String name;
@@ -10,9 +11,11 @@ package invictus;
 	short rank;
  }
 public class variablesinfo {
+	
 public static void main(String arg[]) {
 	
 	studentdetails s=new studentdetails();
+	
 	s.id=252;
 	s.marks=86.5f;
 	s.name="Neha";

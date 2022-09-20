@@ -1,5 +1,4 @@
-
-class fromaddress{
+class Fromaddress{
 	int numberofproducts;
 	String name;
 	static String district;
@@ -15,7 +14,7 @@ class toaddress{
 
 public class courier {
 	public static void main(String args[]) {
-		fromaddress obj=new fromaddress();
+		Fromaddress obj=new Fromaddress();
 		obj.numberofproducts=2;
 		obj.name="kavya";
 		obj.district="khammam";

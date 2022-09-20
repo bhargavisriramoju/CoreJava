@@ -1,4 +1,5 @@
 class Courier{
+	public static final String price = null;
 	void form() {
 		System.out.println("Details name___fromaddress____");
 		
